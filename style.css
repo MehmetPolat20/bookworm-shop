@@ -68,8 +68,20 @@ header .navbar a {
   padding: 0.5rem;
   color: black;
   transition: all 0.4s;
+  position: relative;
 }
-header .navbar a:hover {
+header .navbar a::after{
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: red;
+  bottom: -4px;
+  left: 0;
+  position: absolute;
+}
+header .navbar a:hover::after {
+  width: 100%;
+  transition: 1s;
   color: rgb(148, 148, 18);
 }
 header .icons a {
@@ -358,6 +370,36 @@ header .icons a:hover {
   }
   .review .box-container {
     display: block;
+  
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+  .home .content h3{
+    font-size: 30px;
+  }
+
+ 
+  .about h1{
+    text-align: center;
+  }
+  .about .row .video-container img{
+    width: 90%;
+  }
+  .review .box-container .user .user-info h3{
+    font-size: 20px;
+  }
+ .footer .box-container .box a{
+font-size: 18px;
+margin-right: 250px;
+  }
+  
+.footer .credit{
+  font-size: 14px;
+}
   
   }
 
