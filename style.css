@@ -70,8 +70,8 @@ header .navbar a {
   transition: all 0.4s;
   position: relative;
 }
-header .navbar a::after{
-  content: '';
+header .navbar a::after {
+  content: "";
   height: 2px;
   width: 0;
   background-color: red;
@@ -121,8 +121,8 @@ header .icons a:hover {
   line-height: 1.5rem;
   max-width: 45rem;
 }
-.about{
-    margin-top: -7rem;
+.about {
+  margin-top: -7rem;
 }
 .about .row {
   display: flex;
@@ -191,8 +191,8 @@ header .icons a:hover {
   color: #555;
   font-size: 1rem;
 }
-.products{
-    margin-top: -5rem;
+.products {
+  margin-top: -5rem;
 }
 .products h1 {
   font-size: 3rem;
@@ -255,8 +255,8 @@ header .icons a:hover {
   font-weight: bolder;
   padding-top: 1rem;
 }
-.review{
-    margin-top: -12rem;
+.review {
+  margin-top: -12rem;
 }
 .review .box-container {
   display: flex;
@@ -303,8 +303,8 @@ header .icons a:hover {
   font-size: 1.5rem;
   color: #999;
 }
-.footer{
-    margin-top: -10rem;
+.footer {
+  margin-top: -10rem;
 }
 .footer .box-container {
   display: flex;
@@ -370,37 +370,31 @@ header .icons a:hover {
   }
   .review .box-container {
     display: block;
-  
   }
-
 }
 @media screen and (max-width: 500px) {
   .navbar {
     display: none;
   }
-  .home .content h3{
+  .home .content h3 {
     font-size: 30px;
   }
 
- 
-  .about h1{
+  .about h1 {
     text-align: center;
   }
-  .about .row .video-container img{
+  .about .row .video-container img {
     width: 90%;
   }
-  .review .box-container .user .user-info h3{
+  .review .box-container .user .user-info h3 {
     font-size: 20px;
   }
- .footer .box-container .box a{
-font-size: 18px;
-margin-right: 250px;
-  }
-  
-.footer .credit{
-  font-size: 14px;
-}
+  .footer .box-container .box a {
+    font-size: 18px;
   
   }
 
+  .footer .credit {
+    font-size: 14px;
+  }
 }
